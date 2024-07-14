@@ -4,8 +4,8 @@ import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Search() {
   const [input, setInput] = useState("");
-  const [city, setCity] = useState("");
-  const [temperature, setTemperature] = useState(null);
+  //const [city, setCity] = useState("");
+  //const [temperature, setTemperature] = useState(null);
   const [message, showMessage] = useState("");
 
   function giveTemperature(response) {
