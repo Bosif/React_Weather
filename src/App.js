@@ -5,10 +5,14 @@ import Search from "./Search";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="container">
         <h1>Weather App</h1>
         <Search />
-      </header>
+      </div>
+      <footer>
+        This project was coded by Bo Rutjes and is open-sourced on{" "}
+        <a href="https://github.com/Bosif/React_Weather">GitHub</a>
+      </footer>
     </div>
   );
 }
